@@ -1,4 +1,4 @@
-from lib.converter import Converter
+from core.converter import Converter
 
 def to_int(value: str, default: int = 0) -> int:
     """

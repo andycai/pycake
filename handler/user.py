@@ -1,4 +1,4 @@
-from lib.web import get, post, put, delete, Request, Response
+from core.web import get, post, put, delete, Request, Response
 
 def register_routes(app):
     """注册用户相关路由"""

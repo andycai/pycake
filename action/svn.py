@@ -1,5 +1,5 @@
 from typing import List, Optional
-from lib.svn import SVNClient
+from core.svn import SVNClient
 
 def checkout(url: str, path: str, revision: Optional[int] = None) -> bool:
     """
